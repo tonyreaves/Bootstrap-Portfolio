@@ -1,11 +1,10 @@
 .about {
-    float:left;
     color:#777;
     size: 18px;
 }
 
 article {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .bodyClass {
@@ -23,37 +22,25 @@ color:#fff;
 padding: 10px 20px 10px 20px;
 }
 
-#container {
-    background:#ffffff;
-    border: 2px solid #ffffff;
-    color: #fff;
-    float:center;
-    margin: 0 auto; 
-    min-height: 100%;
-    padding: 20px;
-    width: 960px;
-}
-
-.headClass {
-    align-self: center;
-    background-color:#ebebeb;
-    border: 1px;
-    border-bottom: 2px solid grey;
-    border-color: #4aaaa5;
-    color: #777;
-    float: right;
-    font-family: Arial, Helvetica, sans-serif;
-    height:56px;
-    position:fixed;
-    text-decoration: none;
-    text-align: right;
-    width: 100%;
-
+.myContainer {
+    align-content: center;
+    background: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
 }
 
 a:hover {
     background-color: #4aaaa5;;
     color: white;
+}
+
+#imgDiv {
+        position: relative;
+        top: 10;
+        left: 0;
+        margin: 10px;
+        float: left;
 }
 
 .line {
@@ -71,13 +58,6 @@ a:hover {
     margin: 0 auto; 
     min-height: 100%;
     padding: 20px;
-    width: 960px;
-
-}
-
-#headWidth {
-    margin-left: 6%;
-    width: 80%;
 }
 
 .labelClass {
@@ -96,7 +76,7 @@ a:hover {
     padding: 15px;
     position: absolute;
     text-align: center;
-    width:195px;
+    width:225px;
 }
 
 #me {
@@ -123,38 +103,20 @@ a:hover {
     font-family: 'Georgia', Times, 'Times New Roman', Times, serif, serif;
     font-size: 30px;
     text-align: left;
-    width: 960px;
 }
 
-#photo1 {
+.photo1 {
     float: left;
     margin: 10px;
     position:relative;
 }
 
-#photo2 {
-    float: left;
-    margin: 10px;
-    position: relative;
+.top-marg {
+    margin-top: 5px;
 }
 
-#photo3 {
-    position: relative;
-    margin: 10px;
-    float: left;
-}
-
-#photo4 {
-    float: left;
-    margin: 10px;
-    position: relative;
-}
-
-#photo5 {
-    float: left;
-    margin: 10px;
-    position: relative;
-    /* I know this Lorem Pixel photo looks like a killer girl from a horror movie but I still kelp it. */
+.white-bg {
+    background: #fff;
 }
 
 footer{
@@ -166,8 +128,8 @@ footer{
     height: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
-    margin-top: -45px;
-    position: absolute;
+    margin-top: 45px;
+    position: relative;
     text-align: center;
     width: 100%;
 }

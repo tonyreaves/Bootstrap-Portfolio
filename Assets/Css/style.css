@@ -1,5 +1,5 @@
 .about {
-    color:#777;
+    color:#13262F;
     size: 18px;
 }
 
@@ -8,6 +8,7 @@ article {
 }
 
 .bodyClass {
+background-color:#73683B ;  
     background-image: url("../../Images/light-grey-terrazzo.png");
     /* Background pattern from Toptal Subtle Patterns */
 }
@@ -17,22 +18,22 @@ br {
 }
 
 .button {
-background-color:  #4aaaa5;
-color:#fff;
+background-color: #583E23;
+color:#FFA064;
 padding: 10px 20px 10px 20px;
 }
 
 .myContainer {
     align-content: center;
-    background: #fff;
+    background: #B0A084;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
 }
 
-a:hover {
-    background-color: #4aaaa5;;
-    color: white;
+#a:navhover {
+    background-color: #583E23;;
+    color: #FFA064;
 }
 
 #imgDiv {
@@ -44,14 +45,14 @@ a:hover {
 }
 
 .line {
-    color: #777;
+    color: #13262F;
     height:1px; 
     width:100%; 
 }
 
 .formContainer {
-    background:#ffffff;
-    border: 2px solid #ffffff;
+    background:#B0A084;
+    border: 2px solid #E9E6FF;
     color: #777;
     float:center;
     font-family: Arial, Helvetica, sans-serif;
@@ -61,27 +62,31 @@ a:hover {
 }
 
 .labelClass {
-    color:#777;
+    color:#13262F;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     text-align: left;
 }
 
 .labelPhoto {
-    background: #4aaaa5;
+    background: #583E23;
     bottom: 15px;
-    color: #ebebeb;
+    color: #E9E6FF;
     font-family: 'Georgia', Times, 'Times New Roman', Times, serif, serif;
     font-size: 18px;
     padding: 15px;
     position: absolute;
     text-align: center;
-    width:225px;
+    width:275px;
+}
+
+#mainCont {
+    margin-top: 20px;
 }
 
 #me {
-    background: #4aaaa5;
-    color: #fff;
+    background: #583E23;
+    color: #E9E6FF;
     float:left;
     font-family: 'Georgia', Times, 'Times New Roman', Times, serif, serif;
     font-size: 36px;
@@ -90,16 +95,16 @@ a:hover {
 }
 
 #mynav {
-    color: #777;
+    color: #13262F;
     text-align: right;
 }
 
 #navHeight {
-    height: 70px;
+    height: 60px;
 }
 
 .pageTitle {
-    color: #4aaaa5;
+    color: #583E23;
     font-family: 'Georgia', Times, 'Times New Roman', Times, serif, serif;
     font-size: 30px;
     text-align: left;
@@ -120,16 +125,13 @@ a:hover {
 }
 
 footer{
-    background-color:#777;
-    border-top: 5px solid #4aaaa5;
-    bottom: 0;
-    clear:both;
+    background-color:#583E23;
+    border-top: 5px solid #13262F;
     color: #ebebeb;
     height: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
     margin-top: 45px;
-    position: relative;
     text-align: center;
     width: 100%;
 }
